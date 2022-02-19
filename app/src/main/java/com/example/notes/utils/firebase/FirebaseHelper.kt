@@ -34,7 +34,7 @@ object FirebaseHelper {
                     mList.add(addNote)
                 }
                 mNoteInterface.getNoteList(mList)
-                //    mNoteInterface.hideLoader()
+                mNoteInterface.hideLoader()
             }
 
             override fun onCancelled(error: DatabaseError) {
